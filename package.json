@@ -1,0 +1,50 @@
+{
+  "name": "ai-super-agents-control-system",
+  "version": "1.0.0",
+  "description": "Gerçek AI Ajanlarını Kontrol Eden Profesyonel Web Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "install-deps": "npm install",
+    "setup": "node setup.js"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "automation",
+    "social-media",
+    "email",
+    "control-panel",
+    "dashboard"
+  ],
+  "author": "ZeZilly",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "node-cron": "^3.0.2",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "winston": "^3.10.0",
+    "cheerio": "^1.0.0-rc.12",
+    "feedparser": "^2.2.10",
+    "sentiment": "^5.0.2",
+    "natural": "^6.7.0",
+    "openai": "^4.11.1",
+    "googleapis": "^126.0.1",
+    "linkedin-api-client": "^1.0.0",
+    "instagram-basic-display-api": "^1.0.0",
+    "twitter-api-v2": "^1.15.0",
+    "facebook-nodejs-business-sdk": "^17.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
